@@ -36,6 +36,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['nolimit-djangojacksonandalice.fjyxll.easypanel.host', 'api.jacksonandalice.com']
 
+CSRF_TRUSTED_ORIGINS = ['https://nolimit-djangojacksonandalice.fjyxll.easypanel.host', 'http://api.jacksonandalice.com', 'https://api.jacksonandalice.com']
+
+
 
 # Application definition
 
@@ -106,6 +109,8 @@ DATABASES = {
     }
 }
 
+
+# ON0?ovCfhdwwl#24
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
